@@ -1,0 +1,34 @@
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\bin\Debug\ComptuerDetails.exe.config
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\bin\Debug\ComptuerDetails.exe
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\bin\Debug\ComptuerDetails.pdb
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.csprojAssemblyReference.cache
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\MainWindow.g.cs
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\App.g.cs
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails_MarkupCompile.cache
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails_MarkupCompile.lref
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\MainWindow.baml
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.g.resources
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.Properties.Resources.resources
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.csproj.GenerateResource.cache
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.csproj.CoreCompileInputs.cache
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.exe
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.pdb
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\bin\Debug\LoadingIndicators.WPF.dll
+C:\Users\Michael\source\repos\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.csproj.CopyComplete
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\bin\Debug\ComptuerDetails.exe.config
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\bin\Debug\ComptuerDetails.exe
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\bin\Debug\ComptuerDetails.pdb
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\bin\Debug\LoadingIndicators.WPF.dll
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.csprojAssemblyReference.cache
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\MainWindow.g.cs
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\App.g.cs
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails_MarkupCompile.cache
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails_MarkupCompile.lref
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\MainWindow.baml
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.g.resources
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.Properties.Resources.resources
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.csproj.GenerateResource.cache
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.csproj.CoreCompileInputs.cache
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.csproj.CopyComplete
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.exe
+C:\Users\Michael\OneDrive - Office 365\Development Folder\c#\loadingIndicatorsWorking\ComptuerDetails\ComptuerDetails\obj\Debug\ComptuerDetails.pdb

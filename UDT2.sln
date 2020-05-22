@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCLanDriveTool2x", "ComptuerDetails\UCLanDriveTool2x.csproj", "{D42187FE-7083-412B-ABBD-C442A5841FA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D42187FE-7083-412B-ABBD-C442A5841FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42187FE-7083-412B-ABBD-C442A5841FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42187FE-7083-412B-ABBD-C442A5841FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42187FE-7083-412B-ABBD-C442A5841FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83014564-3F09-4CE6-9BE8-C61323B79CB9}
+	EndGlobalSection
+EndGlobal

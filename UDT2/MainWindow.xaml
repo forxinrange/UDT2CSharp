@@ -1,0 +1,115 @@
+﻿<Window x:Name="MainPane" x:Class="ComptuerDetails.MainWindow" WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComptuerDetails"
+        xmlns:li="clr-namespace:LoadingIndicators.WPF;assembly=LoadingIndicators.WPF"
+        mc:Ignorable="d"
+        Title="UCLan Drive Tool 2.1.0" Height="600" Width="1280" ResizeMode="NoResize">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/LoadingIndicators.WPF;component/Styles/LoadingWave.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/LoadingIndicators.WPF;component/Styles/LoadingThreeDots.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/LoadingIndicators.WPF;component/Styles/LoadingFlipPlane.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/LoadingIndicators.WPF;component/Styles/LoadingPulse.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/LoadingIndicators.WPF;component/Styles/LoadingDoubleBounce.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/LoadingIndicators.WPF;component/Colors.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/LoadingIndicators.WPF;component/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid x:Name="mainLayout">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="166*"></RowDefinition>
+            <RowDefinition Height="355*"></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Fill="#FFE4E4E4" HorizontalAlignment="Stretch" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3" VerticalAlignment="Stretch"/>
+
+        <li:LoadingIndicator x:Name="LI1" Grid.Column="0" Grid.Row="1" SpeedRatio="1" IsActive="True" Style="{DynamicResource LoadingIndicatorArcsStyle}" RenderTransformOrigin="0.5,0.5">
+            <li:LoadingIndicator.RenderTransform>
+                <ScaleTransform ScaleX="5.55" ScaleY="5.55"/>
+            </li:LoadingIndicator.RenderTransform>
+        </li:LoadingIndicator>
+
+        <Image x:Name="phaseOneImg" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1" Source="Resources/tick.png"/>
+
+        <Label x:Name="phaseOneLabel" Content="1. Internet Connection" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Column="0" Grid.Row="1" FontSize="20"></Label>
+
+        <li:LoadingIndicator x:Name="LI2" Grid.Column="1" Grid.Row="1" SpeedRatio="1" IsActive="True" Style="{DynamicResource LoadingIndicatorArcsStyle}" RenderTransformOrigin="0.5,0.5">
+            <li:LoadingIndicator.RenderTransform>
+                <ScaleTransform ScaleX="5.55" ScaleY="5.55"/>
+            </li:LoadingIndicator.RenderTransform>
+        </li:LoadingIndicator>
+
+        <Image x:Name="phaseTwoImg" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" Source="Resources/tick.png"/>
+
+        <Label x:Name="phaseTwoLabel" Content="2. UCLan Services" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Column="1" Grid.Row="1" FontSize="20"></Label>
+
+        <li:LoadingIndicator x:Name="LI3" Grid.Column="2" Grid.Row="1" SpeedRatio="1" IsActive="True" Style="{DynamicResource LoadingIndicatorArcsStyle}" RenderTransformOrigin="0.5,0.5">
+            <li:LoadingIndicator.RenderTransform>
+                <ScaleTransform ScaleX="5.55" ScaleY="5.55"/>
+            </li:LoadingIndicator.RenderTransform>
+        </li:LoadingIndicator>
+
+        <Image x:Name="phaseThreeImg" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Grid.Row="1" Source="Resources/tick.png"/>
+
+        <Label x:Name="phaseThreeLabel" Content="3. Network Drives" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Column="2" Grid.Row="1" FontSize="20"></Label>
+
+        <Label x:Name="statusLabel" Content="Ready..." HorizontalAlignment="Stretch" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Margin="6" VerticalAlignment="Stretch" Foreground="Black" BorderBrush="Black" BorderThickness="1" FontSize="16" Background="White"/>
+        <Image x:Name="logoImg" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Source="Resources/2019logo.png" RenderOptions.BitmapScalingMode="HighQuality" Margin="10"/>
+
+        <Grid Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="118*"></ColumnDefinition>
+                <ColumnDefinition Width="309*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="usrLabel" Grid.Column="0" Grid.Row="0" Content="Username:" HorizontalAlignment="Right" FontWeight="Bold" Margin="-2"></Label>
+            <Label x:Name="usrVal" Grid.Column="1" Grid.Row="0" Content="DefaultUser" HorizontalContentAlignment="Left" Margin="-2"></Label>
+            <Label x:Name="cnLabel" Grid.Column="0" Grid.Row="1" Content="Computer Name:" HorizontalAlignment="Right" FontWeight="Bold" Margin="-2"/>
+            <Label x:Name="cnValue" Grid.Column="1" Grid.Row="1" Content="TEST-PC12345678912345978" HorizontalAlignment="Left" Margin="-2"></Label>
+            <Label x:Name="uuidLabel" Grid.Column="0" Grid.Row="2" Content="UUID:" HorizontalAlignment="Right" FontWeight="Bold" Margin="-2"></Label>
+            <Label x:Name="uuidVal" Grid.Column="1" Grid.Row="2" Content="0000:0000:000000000000:0000" HorizontalAlignment="Left" Margin="-2"></Label>
+            <Label x:Name="osLabel" Grid.Column="0" Grid.Row="3" Content="Operating System:" HorizontalAlignment="Right" FontWeight="Bold" Margin="-2"></Label>
+            <Label x:Name="osVal" Grid.Column="1" Grid.Row="3" Content="Windows 10 Enterprise 1909" Margin="-2"></Label>
+            <Label x:Name="officeLabel" Grid.Column="0" Grid.Row="4" Content="Office 365 Version:" HorizontalContentAlignment="Right" FontWeight="Bold" Margin="-2"></Label>
+            <Label x:Name="officeVal" Grid.Column="1" Grid.Row="4" Content="16.123456789456" HorizontalContentAlignment="Left" Margin="-2"></Label>
+            <Label x:Name="macLabel" Grid.Column="0" Grid.Row="5" Content="Mac Address:" HorizontalAlignment="Right" FontWeight="Bold" Margin="-2"></Label>
+            <Label x:Name="macVal" Grid.Column="1" Grid.Row="5" Content="00:00:00:00:00:00" HorizontalAlignment="Left" Margin="-2"></Label>
+            <Label x:Name="ipLabel" Grid.Column="0" Grid.Row="6" Content="IP Address:" HorizontalAlignment="Right" FontWeight="Bold" Margin="-2"></Label>
+            <Label x:Name="ipVal" Grid.Column="1" Grid.Row="6" Content="0.0.0.0" HorizontalAlignment="Left" Margin="-2"></Label>
+
+        </Grid>
+
+        <WrapPanel x:Name="btnWP" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" FlowDirection="RightToLeft" Orientation="Horizontal" Margin="5">
+            <Button x:Name="helpBtn" Content="Help" Width="166" Height="46" Margin="3" Background="#FFE5E5E5" BorderBrush="Black" BorderThickness="2" FontWeight="Bold" FontSize="20" Click="helpBtn_Click"/>
+            <Label x:Name="padding" Content="" Width="166" Height="46" Margin="3"></Label>
+            <Button x:Name="exiBtn" Content="Exit" Width="166" Height="46" Margin="3" Background="#FFE5E5E5" BorderBrush="Black" BorderThickness="2" FontWeight="Bold" FontSize="20" Click="exiBtn_Click"/>
+            <Button x:Name="chkBtn" Content="Re-Check" Width="166" Height="46" Margin="3" Background="#FFE5E5E5" BorderBrush="Black" BorderThickness="2" FontWeight="Bold" FontSize="20" Click="chkBtn_Click"/>
+        </WrapPanel>
+
+    </Grid>
+</Window>
